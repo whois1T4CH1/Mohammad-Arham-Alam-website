@@ -39,6 +39,10 @@ body {
     border: 1px solid var(--primary-color);
 }
 
+
+/* list */
+
+
 .non-bullet {
     list-style: none;
 }
@@ -47,6 +51,8 @@ body {
     display: inline;
     padding: 0rem 0.5rem;
 }
+
+/* navigation */
 
 .navInLine {
     display: inline;
@@ -81,4 +87,29 @@ body {
 .boldIAmBrand {
     font-weight: bold;
     padding: 2rem 0.5rem;
+}
+
+/* header */
+
+.hero {
+    padding: 2rem;
+    text-align: center;
+    
+}
+
+.hero .hero-image {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+    
+}
+
+.hero .hero-heading {
+    color: #475569;
+    padding-top: 1rem;
+    font-size: 3rem;
+}
+
+.hero .hero-heading .hero-heading-modified {
+    color: #DC2626;
 }
