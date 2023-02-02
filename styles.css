@@ -1,16 +1,42 @@
-h2 {
-    color: yellowgreen;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;700&display=swap');
+
+:root {
+    --primary-color: #DC2626;
 }
 
-p {
-    color: grey;
+body {
+    font-family: 'Montserrat', sans-serif
 }
 
-#arham {
-    color: red;
+/* container */
+
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
-.para {
-    color: burlywood;
+.container-center {
+    max-width: 600px;
+    margin: auto;
 }
+
+/* links */
+.links {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.primary-link {
+    background-color: var(--primary-color);
+    border-radius: 10rem;
+    color: white;
+}
+
+.secondary-link {
+    background-color: var(--primary-color);
+    border-radius: 10rem;
+    color: white;
+    border: 1px solid var(--primary-color);
+}
+
 
