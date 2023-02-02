@@ -39,3 +39,29 @@ body {
     border: 1px solid var(--primary-color);
 }
 
+.non-bullet {
+    list-style: none;
+}
+
+.list-inLine {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.navInLine {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.noUnderline {
+    text-decoration: none;
+}
+
+.redBackground {
+    background-color: #DC2626;
+}
+
+.whiteInText {
+    color: white;
+    padding: 0rem 5rem;
+}

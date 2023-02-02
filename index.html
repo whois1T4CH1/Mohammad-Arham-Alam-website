@@ -9,14 +9,15 @@
 </head>
 <body>
 
-    <h1 id="arham">Arham component library</h1>
+    <h1 >Arham component library</h1>
     <p>I am creating a library which will store all my projects and my   resume and social media hadles. </p>
     <hr>
 
     
     <h1>This is the biggest heading</h1>
     <h2>Second biggest heading</h2>
-    <p class="para">like a paragraph</p>
+    <p>like a paragraph</p>
+    <p>This paraggraph will have <strong>bold</strong> text</p>
     <small>quite small</small>
 
     <hr>
@@ -24,12 +25,13 @@
     <h2>(Container)</h2> 
 
     <h3>Water Container</h3>  
-    <div>
+    <div class="container">
         This is a water Container it will go till the end of the page.
     </div>
 
     <h3>Centered Container</h3>
-    <div>
+    <div class="container
+    container-center">
         This is a Centered Container it will go till the end of the page.
     </div>
 
@@ -39,10 +41,12 @@
 
      <h2>Links</h2>
 
-     <a href="/">Primary link</a>
-     <a href="/">Secondary link</a>
+     <a class="links
+     primary-link" href="/">Primary link</a>
+     <a class="links
+     secondary-link" href="/">Secondary link</a>
 
-    <hr>
+    
 
     <h2>
         List
@@ -52,7 +56,9 @@
         Unordered List
     </h3>
 
-    <ul>
+    <p>This list will not have the bullet</p>
+
+    <ul class="non-bullet">
         <li>
             itemOne
         </li>
@@ -67,22 +73,22 @@
     <h3>
         Unodered in line list
     </h3>
-    <small class="para">need to change it to inline through CSS</small>
+    <small>need to change it to inline through CSS</small>
 
-    <ul>
-        <li>
+    <ul class="non-bullet">
+        <li class="list-inLine">
             inline itemOne
         </li>
-        <li>
+        <li class="list-inLine">
             inline itemTwo
         </li>
-        <li>
+        <li class="list-inLine">
             inline itemThree
         </li>
     </ul>
 
     <h3>Ordered List</h3>
-    <small class="para">It shows numbers and makes it in order</small>
+    <small>It shows numbers and makes it in order</small>
     
     <ol>
         <li>Manchester United </li>
@@ -94,17 +100,20 @@
 
     <h2>Nav</h2>
 
-    <nav>
-        <div>iAmBrand</div>
-        <ul>
-            <li>
-                <a href="/">Home</a>
+    <nav class="redBackground">
+        <div class="whiteInText">iAmBrand</div>
+        <ul >
+            <li class="navInLine">
+                <a class="whiteInText
+                noUnderline" href="/">Home</a>
             </li>
-            <li>
-                <a href="/">Projects</a>
+            <li class="navInLine">
+                <a class="whiteInText
+                noUnderline" href="/">Projects</a>
             </li>
-            <li>
-                <a href="/">About</a>
+            <li class="navInLine">
+                <a class="whiteInText
+                noUnderline" href="/">About</a>
             </li>
         </ul>
     </nav>
