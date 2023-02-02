@@ -59,9 +59,26 @@ body {
 
 .redBackground {
     background-color: #DC2626;
+    border-bottom-left-radius: 1rem;
 }
 
 .whiteInText {
     color: white;
-    padding: 0rem 5rem;
+    padding-left: 4rem;
+    
+}
+
+.alignTextLeft {
+    text-align: left;
+}
+
+.alignTextRight {
+    text-align: right;
+    padding: 2rem
+    
+}
+
+.boldIAmBrand {
+    font-weight: bold;
+    padding: 2rem 0.5rem;
 }
