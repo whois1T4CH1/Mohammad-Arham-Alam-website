@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Explora&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Explora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Explora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Dancing+Script&family=Explora&family=Josefin+Sans:wght@300&display=swap');
+
 :root {
     --primary-color: #DC2626;
     --dark-gray:  #475569;
@@ -62,6 +65,10 @@ body {
 }
 
 /* navigation */
+
+
+
+
 
 .navInLine {
     display: inline;
@@ -183,4 +190,10 @@ body {
     font-size: 12px;
     color: aliceblue;
     ;
+}
+
+.qoute {
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    padding-top: 2rem;
 }
