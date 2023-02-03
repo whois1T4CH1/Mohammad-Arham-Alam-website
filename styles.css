@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Explora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Explora&display=swap');
 :root {
     --primary-color: #DC2626;
     --dark-gray:  #475569;
@@ -30,6 +31,8 @@ body {
     text-decoration: none;
     padding: 0.5rem 1rem;
     text-align: center;
+    color: #F3F4F6;
+    
 }
 
 .primary-link {
@@ -143,20 +146,39 @@ body {
 
 .footer {
     background-color: var(--primary-color);
-    padding: 3rem 1rem;
-    text-align: center;
-    color: white;
     border-top-right-radius: 2rem;
+    padding: 0cm;
+    color: #F3F4F6;
+    text-align: center;
+
 }
+
 
 .footer .footer-header {
-    font-weight: bold;
+    
+    text-align: center;
+    padding: 2rem;
 }
 
-.footer .links {
-    color: white;
+.footer .social-links {
+    
+    padding-top: 2rem;
+    text-align: center;
+    font-weight: bold;
+
 }
 
 .footer .ul {
     padding-inline-end: 0px;
+}
+
+.footer p {
+    text-align: right;
+}
+
+.footer span {
+    
+    font-family: 'font-family: ''Cinzel', serif;
+    font-size: 12px;
+    color: aliceblue;
 }
