@@ -74,12 +74,12 @@ body {
 
 .redBackground {
     background-color: #DC2626;
-    border-bottom-left-radius: 1rem;
+    border-bottom-left-radius: 2rem;
 }
 
 .whiteInText {
     color: white;
-    padding-left: 4rem;
+    padding-left: 0rem;
     
 }
 
