@@ -3,7 +3,8 @@
 :root {
     --primary-color: #DC2626;
     --dark-gray:  #475569;
-    --off-white: #D1D5DB;
+    --off-white: #F3F4F6;
+    --not-red: #FEE2E2;
 }
 
 body {
@@ -128,6 +129,10 @@ body {
 .section h1,p {
     text-align: center;
     padding: 2rem;
+}
+
+.notRed {
+    background-color: var(--not-red);
 }
 
 .ow {
