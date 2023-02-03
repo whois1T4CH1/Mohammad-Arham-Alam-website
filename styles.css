@@ -2,10 +2,14 @@
 
 :root {
     --primary-color: #DC2626;
+    --dark-gray:  #475569;
+    --off-white: #D1D5DB;
 }
 
 body {
-    font-family: 'Montserrat', sans-serif
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    
 }
 
 /* container */
@@ -105,11 +109,39 @@ body {
 }
 
 .hero .hero-heading {
-    color: #475569;
+    color: var(--dark-gray);
     padding-top: 1rem;
     font-size: 3rem;
 }
 
 .hero .hero-heading .hero-heading-modified {
     color: #DC2626;
+}
+
+/* section */
+
+.section {
+    padding:2rem ;
+}
+
+.section h1,p {
+    text-align: center;
+    padding: 2rem;
+}
+
+.ow {
+    background-color: var(--off-white);
+}
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 2rem;
+
+}
+
+.footer .links {
+    color: white;
 }
