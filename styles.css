@@ -28,6 +28,7 @@ body {
 .links {
     text-decoration: none;
     padding: 0.5rem 1rem;
+    text-align: center;
 }
 
 .primary-link {
@@ -81,7 +82,6 @@ body {
 .alignTextLeft {
     text-align: left;
 }
-
 .alignTextRight {
     text-align: right;
     padding: 2rem
@@ -110,6 +110,7 @@ body {
 
 .hero .hero-heading {
     color: var(--dark-gray);
+    text-align: center;
     padding-top: 1rem;
     font-size: 3rem;
 }
@@ -133,15 +134,24 @@ body {
     background-color: var(--off-white);
 }
 
+/* footer */
+
 .footer {
     background-color: var(--primary-color);
-    padding: 2rem 1rem;
+    padding: 3rem 1rem;
     text-align: center;
     color: white;
     border-top-right-radius: 2rem;
+}
 
+.footer .footer-header {
+    font-weight: bold;
 }
 
 .footer .links {
     color: white;
+}
+
+.footer .ul {
+    padding-inline-end: 0px;
 }
